@@ -9,7 +9,7 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const config = new Configuration({
-    apiKey: "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",
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
   });
 
   const api = new OpenAIApi(config);
