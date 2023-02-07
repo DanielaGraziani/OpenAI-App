@@ -3,7 +3,7 @@ import "./App.css";
 import { Configuration, OpenAIApi } from "openai";
 import { useState } from "react";
 
-const configValue : string | undefined  = process.env.REACT_APP_OPENAI_API_KEY
+const apiValue : string | undefined  = process.env.REACT_APP_OPENAI_API_KEY
 
 const App: React.FC = () => {
   const [text, setText] = useState<string>("");
@@ -11,7 +11,7 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const config = new Configuration({
-    apiKey: configValue,
+    apiKey: apiValue,
   });
 
   const api = new OpenAIApi(config);
