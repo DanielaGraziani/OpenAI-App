@@ -29,7 +29,7 @@ const App: React.FC = () => {
         model: "text-davinci-003",
         prompt: generatePrompt(text),
         temperature: 0.6,
-        max_tokens: 200,
+        max_tokens: 150,
       })
       .then((res) => {
         if (res.status === 200) {
@@ -114,7 +114,7 @@ const App: React.FC = () => {
           </p>
         </div>
 
-        <img src={s} alt="product" className="md:h-[700px]  md:mt-32 lg:mt-4 lg:h-full lg:w-full object-cover " />
+        <img src={s} alt="product" className="md:h-[700px] md:mt-32 lg:mt-4 lg:h-full lg:w-full object-cover " />
       </div>
     </div>
   );
