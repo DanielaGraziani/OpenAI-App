@@ -2,13 +2,16 @@
 
 Chappie is a React based application that allows users to summarize their text with the help of OpenAI's language generation model. It is fast and user-friendly, making it easier to get quick summaries of large text.
 
+![chappie](https://user-images.githubusercontent.com/63439379/217969632-8f679bf8-2656-4f1c-8653-8a6a10d22ebb.png)
+
 # Features
 
 * Input text area to write the text to be summarized.
+![chappie-output](https://user-images.githubusercontent.com/63439379/217969357-af5bfddd-3b03-4fd1-845b-1d74b2b769e0.png)
 * Button to trigger the summarization process.
 * Output text area to display the summarized text.
+![chappie-input](https://user-images.githubusercontent.com/63439379/217969498-85a5fdcb-992d-4447-8756-e600dfc47c90.png)
 * Clear button to clear the input and output text areas.
-
 
 # Technical Details
 
@@ -25,6 +28,7 @@ Chappie is a React based application that allows users to summarize their text w
 3. Set the OpenAI API key as an environment variable in the project.
 4. Run `npm start` to start the development server.
 5. Open the application in your browser at `http://localhost:3000/`.
+
 
 
 
